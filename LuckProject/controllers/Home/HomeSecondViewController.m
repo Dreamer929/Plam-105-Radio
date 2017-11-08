@@ -162,7 +162,7 @@
         cell.selectionStyle = UITableViewCellSelectionStyleGray;
         ListModel *list = self.leftData[indexPath.row];
         cell.LeftTitle.text = list.title;
-        [cell.headView sd_setImageWithURL:[NSURL URLWithString:list.thumb] placeholderImage:ECIMAGENAME(@"")];
+        [cell.headView sd_setImageWithURL:[NSURL URLWithString:list.thumb] placeholderImage:ECIMAGENAME(@"cellImage")];
         return cell;
     }else{
         

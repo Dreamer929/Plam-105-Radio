@@ -90,7 +90,7 @@
     ListModel *model = self.dataSouce[indexPath.row];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    [cell.headView sd_setImageWithURL:[NSURL URLWithString:model.thumb] placeholderImage:ECIMAGENAME(@"")];
+    [cell.headView sd_setImageWithURL:[NSURL URLWithString:model.thumb] placeholderImage:ECIMAGENAME(@"cellImage")];
     cell.listTitle.text = model.intro;
     return cell;
 }

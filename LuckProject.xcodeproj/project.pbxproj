@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1E345D4D301326A7FF280D00 /* libPods-LuckProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C889B90A1945899022BCE40 /* libPods-LuckProject.a */; };
+		9502AFA41FB2E851000EDC6A /* cellImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 9502AFA21FB2E851000EDC6A /* cellImage.png */; };
+		9502AFA51FB2E851000EDC6A /* zhanwei.png in Resources */ = {isa = PBXBuildFile; fileRef = 9502AFA31FB2E851000EDC6A /* zhanwei.png */; };
 		951D08D21EFFB8130042EE2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 951D08D11EFFB8130042EE2B /* main.m */; };
 		951D08D51EFFB8130042EE2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 951D08D41EFFB8130042EE2B /* AppDelegate.m */; };
 		951D08D81EFFB8130042EE2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 951D08D71EFFB8130042EE2B /* ViewController.m */; };
@@ -170,6 +172,8 @@
 		2BCC951FDB0713513E39921D /* Pods-LuckProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-LuckProject/Pods-LuckProject.release.xcconfig"; sourceTree = "<group>"; };
 		7C889B90A1945899022BCE40 /* libPods-LuckProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LuckProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8B9F60E6ADA2C45AD7887D /* Pods-LuckProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LuckProject/Pods-LuckProject.debug.xcconfig"; sourceTree = "<group>"; };
+		9502AFA21FB2E851000EDC6A /* cellImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellImage.png; sourceTree = "<group>"; };
+		9502AFA31FB2E851000EDC6A /* zhanwei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhanwei.png; sourceTree = "<group>"; };
 		951D08CD1EFFB8130042EE2B /* LuckProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		951D08D11EFFB8130042EE2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		951D08D31EFFB8130042EE2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -824,6 +828,8 @@
 				95BA0AB21FA1DF2B005F0872 /* bbtonghua.png */,
 				95BA0AAD1FA1C87B005F0872 /* lihongzhang.png */,
 				95BA0AA91FA1C854005F0872 /* langyabang.png */,
+				9502AFA21FB2E851000EDC6A /* cellImage.png */,
+				9502AFA31FB2E851000EDC6A /* zhanwei.png */,
 				95BA0AA71FA1C854005F0872 /* mingchao.png */,
 				95BA0AA81FA1C854005F0872 /* wangli.png */,
 				95BA0A941FA1BAE8005F0872 /* mtuijian.png */,
@@ -1104,6 +1110,7 @@
 				95BA0D5D1FAAC1C4005F0872 /* xiqu1.png in Resources */,
 				95BA0D2D1FA9C3EE005F0872 /* jita.png in Resources */,
 				95BA0D511FAAC1C4005F0872 /* ys.png in Resources */,
+				9502AFA51FB2E851000EDC6A /* zhanwei.png in Resources */,
 				95BA0D531FAAC1C4005F0872 /* qg.png in Resources */,
 				95BA0ABE1FA1E3B5005F0872 /* jianfei.png in Resources */,
 				95BA0C841FA30BB6005F0872 /* cu.png in Resources */,
@@ -1140,6 +1147,7 @@
 				95BA0AC61FA1EA96005F0872 /* xslTS.png in Resources */,
 				95BA0D5A1FAAC1C4005F0872 /* zx.png in Resources */,
 				95BA0D551FAAC1C4005F0872 /* bjjt.png in Resources */,
+				9502AFA41FB2E851000EDC6A /* cellImage.png in Resources */,
 				95BA0D4F1FAAC1C4005F0872 /* trip.png in Resources */,
 				951D08E01EFFB8130042EE2B /* LaunchScreen.storyboard in Resources */,
 				95BA0D5F1FAAC1C4005F0872 /* tyg.png in Resources */,
@@ -1448,6 +1456,8 @@
 			baseConfigurationReference = 7D8B9F60E6ADA2C45AD7887D /* Pods-LuckProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ZTDJ45Z5F;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LuckProject/PrefixHeader.pch";
@@ -1456,6 +1466,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moxitestzyf.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -1464,6 +1476,8 @@
 			baseConfigurationReference = 2BCC951FDB0713513E39921D /* Pods-LuckProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ZTDJ45Z5F;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LuckProject/PrefixHeader.pch";
@@ -1472,6 +1486,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moxitestzyf.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

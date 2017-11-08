@@ -236,7 +236,7 @@
     }
     DetialModel *model = self.dataSouce[indexPath.row];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    [cell.headView sd_setImageWithURL:[NSURL URLWithString:model.thumb] placeholderImage:nil];
+    [cell.headView sd_setImageWithURL:[NSURL URLWithString:model.thumb] placeholderImage:ECIMAGENAME(@"cellImage")];
     cell.detialTitle.text = model.title;
     cell.timeLable.text = model.duration;
     

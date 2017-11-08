@@ -397,7 +397,7 @@
 -(void)setHeadviewImageBy:(DetialModel*)model{
     
     
-    [self.headView sd_setImageWithURL:[NSURL URLWithString:model.thumb] placeholderImage:ECIMAGENAME(@"guang")];
+    [self.headView sd_setImageWithURL:[NSURL URLWithString:model.thumb] placeholderImage:ECIMAGENAME(@"cellImage")];
     self.titleLable.text = model.title;
     
     [self.baseView sd_setImageWithURL:[NSURL URLWithString:self.model.thumb] placeholderImage:nil];

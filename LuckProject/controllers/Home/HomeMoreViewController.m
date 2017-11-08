@@ -154,7 +154,7 @@
     
     MyCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"collection" forIndexPath:indexPath];
     ListModel *model = self.firstDataSource[indexPath.row];
-    [cell.headView sd_setImageWithURL:[NSURL URLWithString:model.thumb] placeholderImage:ECIMAGENAME(@"")];
+    [cell.headView sd_setImageWithURL:[NSURL URLWithString:model.thumb] placeholderImage:ECIMAGENAME(@"cellImage")];
     cell.cellTitle.text = model.title;
     return cell;
     
